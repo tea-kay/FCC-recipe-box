@@ -92,7 +92,7 @@ class App extends Component {
     const { recipes, newestRecipe, currentIndex } = this.state;
 
     return (
-      <div className="App container">
+      <div className="App">
       { recipes.length > 0 && (
         <div>
           <Accordion>
